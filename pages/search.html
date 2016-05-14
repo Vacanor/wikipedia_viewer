@@ -1,0 +1,13 @@
+<section class="v-center">
+		<div class="result-card">
+		<span class="head">
+			<p class="head-text-result">Your search: "{{title}}"</p>
+		</span>
+		<a class="button" type="submit" href="#/"><span style="vertical-align: middle">Search something else</span> &nbsp; <svg style="width:18px;height:18px;vertical-align: middle;" viewBox="0 0 24 24">
+    <path fill="#f1f1f1" d="M19,6.41L17.59,5L12,10.59L6.41,5L5,6.41L10.59,12L5,17.59L6.41,19L12,13.41L17.59,19L19,17.59L13.41,12L19,6.41Z" />
+</svg></a>
+	</div>
+
+	<search-result ng-repeat="page in searchResult.query.pages"></search-result>
+
+</section>
